@@ -1,0 +1,13 @@
+{application, cowboy_delay,
+[
+  {description, "delay test"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+      kernel,
+      stdlib,
+      cowboy
+    ]},
+  {mod, { cowboy_delay_app, []}},
+  {env, []}
+]}.
