@@ -13,7 +13,6 @@ defmodule ElixirPhoenix.Application do
       {Phoenix.PubSub, name: ElixirPhoenix.PubSub},
       # Start the Endpoint (http/https)
       ElixirPhoenixWeb.Endpoint,
-      ElixirPhoenixWeb.DelayWorkerSupervisor,
       {Task.Supervisor, name: ElixirPhoenixWeb.TaskSupervisor},
       # Start a worker by calling: ElixirPhoenix.Worker.start_link(arg)
       # {ElixirPhoenix.Worker, arg}

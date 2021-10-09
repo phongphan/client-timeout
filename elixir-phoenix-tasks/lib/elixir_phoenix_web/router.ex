@@ -16,7 +16,7 @@ defmodule ElixirPhoenixWeb.Router do
   scope "/", ElixirPhoenixWeb do
     pipe_through :browser
 
-    get "/delay/:seconds", PageController, :delay_task
+    get "/delay/:seconds", PageController, :delay
   end
 
   # Other scopes may use custom stacks.
