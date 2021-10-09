@@ -17,6 +17,7 @@ We could simulate client closes connection by using curl timeout:
 | erlang-cowboy                     |            Y             |
 | go-gin                            |            N             |
 | node-express                      |            N             |
+| php-laravel-fpm                   |            N             |
 | rust-actix                        |            N             |
 | rust-warp                         |            N             |
 
